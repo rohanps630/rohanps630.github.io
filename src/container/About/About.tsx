@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
-import { AboutsData } from './AboutsData';
+import { AboutsData } from '../../constants/AboutsData';
 import './About.scss';
 
 const About = () => {

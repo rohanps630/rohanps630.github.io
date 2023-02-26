@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Work.scss';
-import { WorksData } from './WorksData';
+import { WorksData } from '../../constants/WorksData';
 
 const Work = () => {
   const [filterWork, setFilterWork] = useState(WorksData);
@@ -29,9 +29,8 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
-
       <div className="app__work-filter">
-        {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+        {['Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -41,7 +40,6 @@ const Work = () => {
           </div>
         ))}
       </div>
-
       <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}

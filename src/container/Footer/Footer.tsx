@@ -25,13 +25,6 @@ const Footer = () => {
       email: formData.email,
       message: formData.message,
     };
-
-    // client.create(contact)
-    //   .then(() => {
-    //     setLoading(false);
-    //     setIsFormSubmitted(true);
-    //   })
-    //   .catch((err) => console.log(err));
   };
 
   return (

@@ -5,7 +5,7 @@ import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import { TypeAnimation } from 'react-type-animation';
 import './Header.scss';
-import { UserData } from './UserData';
+import { UserData } from '../../constants/UserData';
 
 const scaleVariants = {
   whileInView: {

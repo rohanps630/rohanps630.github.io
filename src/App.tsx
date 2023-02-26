@@ -5,7 +5,7 @@ import {
   About,
   Work,
   Skills,
-  //   Testimonial,
+  Testimonial,
   Footer,
 } from './container';
 import {
@@ -19,7 +19,7 @@ const App = () => (
     <About />
     <Work />
     <Skills />
-    {/* <Testimonial /> */}
+    <Testimonial />
     <Footer />
   </div>
 );

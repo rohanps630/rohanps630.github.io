@@ -5,7 +5,7 @@ import 'react-tooltip/dist/react-tooltip.css'
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Skills.scss';
-import { ExperiencesData, SkillsData } from './WorksData';
+import { ExperiencesData, SkillsData } from '../../constants/SkillsData';
 
 const Skills = () => {
 
