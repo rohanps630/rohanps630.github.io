@@ -1,5 +1,4 @@
 import { Companies } from "../assets";
-import { images } from ".";
 
 export const TestimonialsData = [
   {

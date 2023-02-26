@@ -1,4 +1,3 @@
-import { images } from ".";
 import { Projects } from "../assets";
 
 export const WorksData = [
