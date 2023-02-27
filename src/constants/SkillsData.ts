@@ -1,49 +1,50 @@
 import { images } from ".";
+import { Skills } from "../assets";
 
 export const SkillsData = [
   {
     name: 'Bootstrap',
-    icon: images.Bootstrap,
+    icon: Skills.Bootstrap,
     bgColor: 'white',
   },
   {
     name: 'Node JS',
-    icon: images.node,
+    icon: Skills.NodeJs,
     bgColor: 'white',
   },
   {
     name: 'JavaScript',
-    icon: images.javascript,
+    icon: Skills.JavaScript,
     bgColor: 'white',
   },
   {
     name: 'TypeScript',
-    icon: images.typescript,
+    icon: Skills.TypeScript,
     bgColor: 'white',
   },
   {
     name: 'React JS',
-    icon: images.react,
+    icon: Skills.ReactJs,
     bgColor: 'white',
   },
   {
     name: 'React Native',
-    icon: images.react,
+    icon: Skills.ReactJs,
     bgColor: 'white',
   },
   {
     name: 'GIT',
-    icon: images.git,
+    icon: Skills.Git,
     bgColor: 'white',
   },
   {
     name: 'CSS',
-    icon: images.css,
+    icon: Skills.CSS,
     bgColor: 'white',
   },
   {
     name: 'Nest JS',
-    icon: String(images.NestJS),
+    icon: String(Skills.NestJS),
     bgColor: 'white',
   },
 ];

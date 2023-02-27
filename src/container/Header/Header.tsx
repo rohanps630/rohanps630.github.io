@@ -6,6 +6,7 @@ import { images } from '../../constants';
 import { TypeAnimation } from 'react-type-animation';
 import './Header.scss';
 import { UserData } from '../../constants/UserData';
+import { Skills } from '../../assets';
 
 const scaleVariants = {
   whileInView: {
@@ -74,12 +75,12 @@ const Header = () => (
       className="app__header-circles"
     >
       {[
-        images.react,
-        images.node,
-        images.javascript,
-        images.typescript,
-        images.flutter,
-        images.redux,
+        Skills.ReactJs,
+        Skills.NodeJs,
+        Skills.JavaScript,
+        Skills.TypeScript,
+        Skills.Flutter,
+        Skills.Redux,
       ].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
